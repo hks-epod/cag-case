@@ -85,10 +85,15 @@ margin-bottom: 4%;
 }
 
 blockquote {
-	font: 600 20px/28px 'Garamond', serif;
-	/*font: 600 16px/34px 'Garamond', serif;
+	font: 600 16px/34px 'Garamond', serif;
   text-align: justify;
-  word-spacing: -1px;*/
+  word-spacing: -1px;
+ }
+
+ .blockquote {
+  font: 600 20px/28px 'Garamond', serif;
+  text-align: left;
+  word-spacing: normal;
  }
 
 

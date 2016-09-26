@@ -96,7 +96,23 @@ blockquote {
   word-spacing: normal;
  }
 
+.blockquote p {
+	color: gray;
+}
+.blockquote a, .blockquote p {
+	position: relative;
+  top: 10px;
+}
 
+
+ aside p,  .blockquote p,
+ blockquote a {
+font: 600 16px/24px 'Garamond', serif;
+}
+blockquote p:before, 
+blockquote a:before {
+	content: '\2014 \00A0'
+}
 figcaption {
 	font: 300 16px/20px 'Garamond', serif;
 	color: gray;
